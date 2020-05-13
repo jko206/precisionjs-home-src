@@ -32,6 +32,7 @@
         <li>
           Arithmetics with rational numbers
         </li>
+        <li><code>BigInt</code> support for environments that support it</li>
         <li>
           Common functions, such as greatest common divisor, factorial,
           fibonacci, etc.
