@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="demo">
     <div>
       <label for="random-number-length">
         Random number length:
@@ -46,6 +46,18 @@ import {
   subtractArnums,
   getArnum,
 } from "precisionjs";
+
+/* global $, $$, BigInt*/
+window.checkSum = () =>
+  $$("#demo li")
+    .map((li) => BigInt(li.innerText))
+    .reduce((a, b) => a + b)
+    .toString() === $("#result").innerText;
+window.checkProd = () =>
+  $$("#demo li")
+    .map((li) => BigInt(li.innerText))
+    .reduce((a, b) => a * b)
+    .toString() === $("#result").innerText;
 
 export default {
   data() {
