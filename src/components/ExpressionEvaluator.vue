@@ -12,7 +12,7 @@
           <input 
             v-model="formula"
             type="text"
-            class="flex-1 block w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 sm:text-sm font-mono transition-all shadow-inner shadow-slate-100"
+            class="flex-1 block w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 sm:text-sm font-mono transition-all shadow-inner shadow-slate-100"
           />
         </div>
       </div>
@@ -23,14 +23,14 @@
           <input 
             v-model="variables[key]"
             type="number"
-            class="block w-full rounded-lg border-slate-200 bg-white px-3 py-2 text-slate-900 outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 sm:text-sm font-mono shadow-sm"
+            class="block w-full rounded-lg border-slate-200 bg-white px-3 py-2 text-slate-900 outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 sm:text-sm font-mono shadow-sm"
           />
         </div>
       </div>
 
       <div class="pt-6 border-t border-slate-100 flex items-center justify-between">
         <div class="text-sm font-medium text-slate-500 uppercase tracking-wider">Result</div>
-        <div class="font-mono text-2xl font-bold text-indigo-600">
+        <div class="font-mono text-2xl font-bold text-teal-600">
           {{ result }}
         </div>
       </div>

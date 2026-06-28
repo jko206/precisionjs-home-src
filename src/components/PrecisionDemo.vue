@@ -31,12 +31,12 @@
         </div>
 
         <!-- PrecisionJS Result -->
-        <div class="relative overflow-hidden rounded-xl border border-indigo-100 bg-indigo-50/50 p-6 shadow-sm">
+        <div class="relative overflow-hidden rounded-xl border border-teal-100 bg-teal-50/50 p-6 shadow-sm">
           <div class="flex items-center gap-2 mb-3">
-            <div class="h-2 w-2 rounded-full bg-indigo-500"></div>
-            <h4 class="text-sm font-semibold text-indigo-900">PrecisionJS</h4>
+            <div class="h-2 w-2 rounded-full bg-teal-500"></div>
+            <h4 class="text-sm font-semibold text-teal-900">PrecisionJS</h4>
           </div>
-          <div class="font-mono text-lg text-indigo-700 break-all font-semibold">
+          <div class="font-mono text-lg text-teal-700 break-all font-semibold">
             {{ precisionResult }}
           </div>
         </div>
